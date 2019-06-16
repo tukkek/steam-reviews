@@ -7,7 +7,7 @@ Simple Python command-line script that retrieves better reviews than those found
 
 `positive | negative | all` (optional): show only negative or positive reviews. If not present, will default to `all`. Note that you need to explicitly provide a value here if you want to use the next parameter.
 
-`last x days` (optional): number of days counting back from the current date to include reviews for.
+`last x days` (optional): number of days counting back from the current date to include reviews for. Defaults to 10 years (`3655`).
 
 Note that the script makes a single request to the Steamworks web API, so it's by no means an exhaustive search - but still qualitatively better than the reviews shown on the Steam store page (which apprently focus on a very limited time-frame only, even when you explicitly ask for the entire lifetime of the product to be considered). Hopefully Valve will improve things some day!
 
