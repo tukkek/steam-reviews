@@ -1,7 +1,7 @@
 # steam-reviews.py
 Simple Python command-line script that retrieves better reviews than those found on the Steam store page.
 
-Usage: `steam-reviews.py appId [positive | negative | all] [last x days]`
+**Usage**: `steam-reviews.py appId [positive | negative | all] [last x days]`
 
 `appId` (mandatory): the product identifier on Steam, which can be easily found through its store page address. For example: the `appId` for *The Beginner's Guide* is `303210` (its address being https://store.steampowered.com/app/303210/The_Beginners_Guide/).
 
